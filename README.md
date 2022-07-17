@@ -19,6 +19,6 @@ App deployed at : https://todo-rivert.herokuapp.com/
   - Modal and Backdrop - for confirmation on delete.
   - Input client side validation with a maximum of 30 characters allowed
   - Simple feedback message on submission of a new Todo.
-  - Basic Responsive design (could be improved a lot though)
+  - Basic Responsive design (could be improved a lot)
 
 Feel free to use and populate the api. Be gentle!
