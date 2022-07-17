@@ -21,4 +21,9 @@ App deployed at : https://todo-rivert.herokuapp.com/
   - Simple feedback message on submission of a new Todo.
   - Basic Responsive design (could be improved a lot)
 
+- Bundled using Parcel
+  -To use dowloand the code
+  -Run -> 'npm install'
+  -Run -> 'node server.js'
+
 Feel free to use and populate the api. Be gentle!
