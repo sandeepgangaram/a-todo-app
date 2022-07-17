@@ -1,0 +1,33 @@
+.form {
+  padding: 0 10%;
+  width: 100%;
+}
+
+.form label,
+p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  text-decoration: none;
+  border-color: transparent;
+  width: 50%;
+  padding: 4px 20px;
+  margin: 8px 0;
+  line-height: 20px;
+  background-color: #5c5c5c;
+  margin-right: 25px;
+}
+input[type="text"]:focus {
+  border-color: transparent;
+}
+
+.message {
+  padding-left: 10%;
+}
+.message__hidden {
+  padding-left: 10%;
+  visibility: hidden;
+}

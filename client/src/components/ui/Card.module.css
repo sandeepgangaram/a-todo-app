@@ -1,0 +1,47 @@
+.card {
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  width: 20rem;
+  height: 7rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.card__completed {
+  background-color: #202020;
+  border: 1px solid #7ab530;
+  border-radius: 8px;
+  width: 20rem;
+  height: 7rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-template-rows: 50% 50%;
+  position: relative;
+}
+
+@media screen and (max-width: 1150px) {
+  .card,
+  .card__completed {
+    width: 21.5rem;
+    height: 8.5rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .card,
+  .card__completed {
+    width: 25rem;
+    height: 10rem;
+  }
+}
+
+.tick {
+  position: absolute;
+  right: -3%;
+  top: 15%;
+  background-color: transparent;
+}
+.tick img {
+  width: 20px;
+  height: 20px;
+}

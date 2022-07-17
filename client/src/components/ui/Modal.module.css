@@ -1,0 +1,51 @@
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #2f2f2f;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  height: 15rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.title {
+  border-bottom: 1px solid #5c5c5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title h3 {
+  font-size: 25px;
+  font-weight: 400;
+  background-color: inherit;
+}
+.title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  background-color: inherit;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.actions p {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: inherit;
+}
+
+.actions button {
+  margin: 0 10px;
+}
+
+.modal div {
+  background-color: inherit;
+}

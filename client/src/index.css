@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: 10% 15% 10% 60% 5%;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.btn__sort {
+  position: absolute;
+  top: 18%;
+  right: 20%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.btn__sort button {
+  text-decoration: none;
+  background-color: #c620a7;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin: 0 5px;
+}
+.todolist {
+  height: 100%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  /* gap: 5%; */
+  row-gap: 7.5%;
+  column-gap: 3.5%;
+}
+
+@media screen and (max-width: 1150px) {
+  #root {
+    display: grid;
+    /* grid-template-rows: 10% 10% 5% 55% 5%; */
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .todolist {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+  .btn__sort {
+    position: absolute;
+    right: 24%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #root {
+    padding: 0 10%;
+    display: grid;
+    /* grid-template-rows: 10% 10% 10% 60% 5%; */
+    align-items: center;
+    height: 100vh;
+  }
+  .todolist {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .btn__sort {
+    position: absolute;
+    top: 27%;
+    right: 55%;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn {
+  font-size: 10px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #c620a7;
+  color: white;
+  border: 1px solid #c620a7;
+  /* margin: 0 1rem; */
+}
+
+.btn:hover {
+  background-color: #ff00d0;
+  border-color: #ff00d0;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: white;
+}
+
+.btn--alt:hover {
+  background-color: #c620a7;
+}

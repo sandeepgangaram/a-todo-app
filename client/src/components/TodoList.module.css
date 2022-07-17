@@ -1,0 +1,36 @@
+.pages {
+  position: absolute;
+  top: 18%;
+  right: 10%;
+  background-color: transparent;
+  align-self: center;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 840px) {
+  .pages {
+    position: absolute;
+    top: 27%;
+    right: 25%;
+  }
+}
+.pages span {
+  margin: 0 5px;
+}
+
+.pages button {
+  padding: 0;
+  background-color: transparent;
+  color: #c620a7;
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+}
+.pages p {
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 300;
+}
