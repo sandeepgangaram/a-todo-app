@@ -63,7 +63,8 @@
 
 @media screen and (max-width: 840px) {
   #root {
-    padding: 0 10%;
+    padding-right: 3%;
+    padding-left: 4%;
     display: grid;
     /* grid-template-rows: 10% 10% 10% 60% 5%; */
     align-items: center;
