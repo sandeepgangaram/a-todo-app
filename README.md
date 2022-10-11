@@ -23,27 +23,33 @@ App deployed at : https://todo-rivert.herokuapp.com/
 
 - Bundled using Parcel
 
-  -To use dowloand the code
+### Usage
 
-  1.`cd server`
+#### Clone the repo
 
-  2.`npm install`
+`git clone https://github.com/sandeepgangaram/a-todo-app.git`
 
-  3.`npm start`
+##### Server Side
 
-  -To inclide changes in client side
+1.`cd server`
 
-  1.`cd client`
+2.`npm install`
 
-  2.`npm install`
+3.`npm start`
 
-  3.`npm run dev`
+#### Client side
 
-  4.Make necessary changes
+1.`cd client`
 
-  5.`npm run build`
+2.`npm install`
 
-  6.Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
+3.`npm run dev`
+
+4.Make necessary changes
+
+5.`npm run build`
+
+6.Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
 
 Feel free to use and populate the api. Be gentle!
 
