@@ -29,20 +29,22 @@ App deployed at : https://todo-rivert.herokuapp.com/
 
   2.`npm install`
 
-  3.`npm start` or `node server.js`
+  3.`npm start`
 
   -To inclide changes in client side
 
-  1. `cd client`
+  1.`cd client`
 
-  2. `npm run dev`
+  2.`npm install`
 
-  3. Make necessary changes
+  3.`npm run dev`
 
-  4. `npm run build`
+  4.Make necessary changes
 
-  5. Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
+  5.`npm run build`
 
-NOTE:
+  6.Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
 
 Feel free to use and populate the api. Be gentle!
+
+### Happy Coding!
