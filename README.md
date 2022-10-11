@@ -25,13 +25,24 @@ App deployed at : https://todo-rivert.herokuapp.com/
 
   -To use dowloand the code
 
-  1.`cd server` 2.`npm install` 3.`npm start` or `node server.js`
+  1.`cd server`
+
+  2.`npm install`
+
+  3.`npm start` or `node server.js`
 
   -To inclide changes in client side
 
   1. `cd client`
-  2. Make necessary changes
-  3. Run `npm run build`
-  4. Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
+
+  2. `npm run dev`
+
+  3. Make necessary changes
+
+  4. `npm run build`
+
+  5. Move (copy/paste) the output files from dist folder (in client) to public folder (in server)
+
+NOTE:
 
 Feel free to use and populate the api. Be gentle!
