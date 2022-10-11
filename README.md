@@ -1,6 +1,6 @@
-#A Simple ToDo App
+# A Minimal ToDo App
 
-Stack - React.js, Node.js, MongoDB
+Stack - React.js, Node.js, Express.js, MongoDB
 
 App deployed at : https://todo-rivert.herokuapp.com/
 
