@@ -1,15 +1,20 @@
 # A Minimal ToDo App
 
-Stack - React.js, Node.js, Express.js, MongoDB
+## Tech Stack - MERN
 
-App deployed at : https://todo-rivert.herokuapp.com/
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+
+App deployed at : https://todo-sandev.onrender.com/
 
 - API Features
 
   - Full CRUD functionality
   - End Points
-    - GET, POST - https://todo-rivert.herokuapp.com/api/todos
-    - DELETE, PATCH - https://todo-rivert.herokuapp.com/api/todos/:id
+    - GET, POST - https://todo-sandev.onrender.com/api/todos
+    - DELETE, PATCH - https://todo-sandev.onrender.com/api/todos/:id
 
 - FrontEnd Features
 
