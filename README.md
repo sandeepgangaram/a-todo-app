@@ -32,23 +32,23 @@ App deployed at : https://todo-sandev.onrender.com/
 
 #### Clone the repo
 
-`git clone https://github.com/sandeepgangaram/a-todo-app.git`
+0. `git clone https://github.com/sandeepgangaram/a-todo-app.git`
 
-##### Server Side
+##### Server
 
-1.`cd server`
+    1.`cd server`
 
-2.`npm install`
+    2.`npm install`
 
-3.`npm start`
+    3.`npm start`
 
-#### Client side
+#### Client
 
-1.`cd client`
+    1.`cd client`
 
-2.`npm install`
+    2.`npm install`
 
-3.`npm run dev`
+    3.`npm run dev`
 
 4.Make necessary changes
 
@@ -58,4 +58,4 @@ App deployed at : https://todo-sandev.onrender.com/
 
 Feel free to use and populate the api. Be gentle!
 
-### Happy Coding!
+### Happy Coding✌️
